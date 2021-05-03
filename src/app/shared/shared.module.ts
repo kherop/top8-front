@@ -4,6 +4,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { RouterModule } from '@angular/router';
 import { HeroHeaderComponent } from './components/hero-header/hero-header.component';
+import { ListEightComponent } from './components/list-eight/list-eight.component';
 
 
 
@@ -11,12 +12,14 @@ import { HeroHeaderComponent } from './components/hero-header/hero-header.compon
   declarations: [
     FooterComponent,
     NavbarComponent,
-    HeroHeaderComponent
+    HeroHeaderComponent,
+    ListEightComponent
   ],
   exports: [
     NavbarComponent,
     FooterComponent,
-    HeroHeaderComponent
+    HeroHeaderComponent,
+    ListEightComponent
   ],
   imports: [
     CommonModule,
