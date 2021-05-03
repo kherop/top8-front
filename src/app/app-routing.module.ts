@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './layout/home/home-page/home-page.component';
 import { Error404PageComponent } from './layout/error404/error404-page/error404-page.component';
@@ -10,7 +9,7 @@ import { CoursesPageComponent } from './layout/courses/courses-page/courses-page
 import { GamesPageComponent } from './layout/games/games-page/games-page.component';
 
 const routes: Routes = [
-  { path: '', component:  HomePageComponent, pathMatch: 'full' },
+  { path: '', component:  HomePageComponent },
   { path: 'home', component:  HomePageComponent },
   { path: 'tecnologia', component:  TechnologyPageComponent },
   { path: 'hogar', component:  HousePageComponent },
@@ -23,7 +22,6 @@ const routes: Routes = [
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule,
     RouterModule.forRoot( routes )
   ],
   exports: [

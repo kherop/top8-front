@@ -9,14 +9,14 @@ import { HomeModule } from './layout/home/home.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     SharedModule,
     AuthModule,
-    HomeModule
+    HomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
