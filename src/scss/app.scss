@@ -1,7 +1,18 @@
+/* Import Fonts */
+@font-face {
+    font-family: 'Bebas';
+    src:  url('../assets/fonts/BebasNeue-Regular.ttf'),
+}
+
 /* Colors */
 $primary: #F7A715;
 $secondary: #89CFDf;
 $dark: #565656;
+
+/* Font */
+.bebas {
+    font-family: 'Bebas';
+}
 
 /* Utilities */
 .mask {
@@ -37,7 +48,7 @@ $dark: #565656;
 }
 
 .product-card .product-image {
-    height: 300px;
+    max-height: 250px;
 }
 
 .product-card img {
@@ -63,6 +74,9 @@ $dark: #565656;
     background: #e58d00ba;
     padding: 0.85rem;
     min-height: 77px;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.05rem;
 }
 
 .product-card .product-name p {
@@ -77,19 +91,10 @@ $dark: #565656;
     padding: 10px;
 }
 
-.product-card .product-overview {
-    padding: 15px 0px;
-}
-
-.product-card .product-overview p {
-    font-size: 10px;
-    font-weight: 600;
-    color: #777;
-}
-
-.product-card .product-overview h4 {
-    color: #273751;
+.product-card .product-price {
+    font-size: 2.5rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .product-card .product-content::before {
