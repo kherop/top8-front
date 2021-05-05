@@ -16,7 +16,7 @@ import { HomeModule } from './layout/home/home.module';
     AppRoutingModule,
     SharedModule,
     AuthModule,
-    HomeModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
