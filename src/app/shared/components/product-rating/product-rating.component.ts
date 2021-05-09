@@ -1,4 +1,4 @@
-import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-product-rating',
@@ -14,7 +14,6 @@ export class ProductRatingComponent implements OnInit {
 
   ngOnInit(): void {
     this.rating_start = this.getStars(this.rating)
-    console.log(this.rating);
   }
 
   getStars(rating: any) {
@@ -34,10 +33,7 @@ export class ProductRatingComponent implements OnInit {
     for (let i = (5 - rating); i >= 1; i--)
       output.push('<i class="bi bi-star text-primary"></i></svg>');
   
-
-    console.log('o' + output);
     return output.join('');
-    
 
   }
 
