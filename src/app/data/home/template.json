@@ -4,7 +4,24 @@
         "description": "",
         "price": " €",
         "img": "",
-        "link": ""
+        "link": "",
+        "review": ""
+    },
+    {
+        "title": "",
+        "description": "",
+        "price": " €",
+        "img": "",
+        "link": "",
+        "review": ""
+    },
+    {
+        "title": "",
+        "description": "",
+        "price": " €",
+        "img": "",
+        "link": "",
+        "review": ""
     },
     {
         "title": "",
@@ -25,34 +42,23 @@
         "description": "",
         "price": " €",
         "img": "",
-        "link": ""
+        "link": "",
+        "review": ""
     },
     {
         "title": "",
         "description": "",
         "price": " €",
         "img": "",
-        "link": ""
+        "link": "",
+        "review": ""
     },
     {
         "title": "",
         "description": "",
         "price": " €",
         "img": "",
-        "link": ""
-    },
-    {
-        "title": "",
-        "description": "",
-        "price": " €",
-        "img": "",
-        "link": ""
-    },
-    {
-        "title": "",
-        "description": "",
-        "price": " €",
-        "img": "",
-        "link": ""
+        "link": "",
+        "review": ""
     }
 ]

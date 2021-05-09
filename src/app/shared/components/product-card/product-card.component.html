@@ -14,17 +14,17 @@
         <div class="row flex-column justify-content-center">
             <div class="product-price text-danger bebas">{{ product.price }}</div>
             <div class="product-rating">
-                <app-product-rating product="product.rating"></app-product-rating>
+                <app-product-rating [rating]="product.rating" [link]="product.link"></app-product-rating>
             </div>
         </div>
     </div>
     <div class="btn-group w-100" role="group">
-        <a type="button" class="btn btn-primary text-white" href="{{ product.link }}" target="_blank">
+        <a type="button" class="btn btn-primary text-white" href="{{ product.link }}" target="_blank"  placement="top" ngbTooltip="Saber más" tooltipClass="tooltip-primary-top">
             <svg class="bi" width="32" height="32" fill="currentColor">
                 <use xlink:href="assets/icons/bootstrap-icons.svg#bag" />
             </svg>
         </a>
-        <button type="button" class="btn btn-secondary text-white">
+        <button type="button" class="btn btn-secondary text-white" placement="top" ngbTooltip="Añadir a favoritos" tooltipClass="tooltip-primary-top">
             <svg class="bi" width="32" height="32" fill="currentColor">
                 <use xlink:href="assets/icons/bootstrap-icons.svg#heart" />
             </svg>
