@@ -5,6 +5,7 @@
         "price": " €",
         "img": "",
         "link": "",
+        "rating": "",
         "review": ""
     },
     {
@@ -13,6 +14,7 @@
         "price": " €",
         "img": "",
         "link": "",
+        "rating": "",
         "review": ""
     },
     {
@@ -21,28 +23,7 @@
         "price": " €",
         "img": "",
         "link": "",
-        "review": ""
-    },
-    {
-        "title": "",
-        "description": "",
-        "price": " €",
-        "img": "",
-        "link": ""
-    },
-    {
-        "title": "",
-        "description": "",
-        "price": " €",
-        "img": "",
-        "link": ""
-    },
-    {
-        "title": "",
-        "description": "",
-        "price": " €",
-        "img": "",
-        "link": "",
+        "rating": "",
         "review": ""
     },
     {
@@ -51,6 +32,7 @@
         "price": " €",
         "img": "",
         "link": "",
+        "rating": "",
         "review": ""
     },
     {
@@ -59,6 +41,34 @@
         "price": " €",
         "img": "",
         "link": "",
+        "rating": "",
+        "review": ""
+    },
+    {
+        "title": "",
+        "description": "",
+        "price": " €",
+        "img": "",
+        "link": "",
+        "rating": "",
+        "review": ""
+    },
+    {
+        "title": "",
+        "description": "",
+        "price": " €",
+        "img": "",
+        "link": "",
+        "rating": "",
+        "review": ""
+    },
+    {
+        "title": "",
+        "description": "",
+        "price": " €",
+        "img": "",
+        "link": "",
+        "rating": "",
         "review": ""
     }
 ]
