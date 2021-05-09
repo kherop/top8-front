@@ -7,7 +7,9 @@
 /* Colors */
 $primary: #F7A715;
 $secondary: #89CFDf;
+$dark-secondary: #1f7a8e;
 $dark: #565656;
+$danger: #b7212f;
 
 /* Font */
 .bebas {
@@ -119,8 +121,27 @@ $dark: #565656;
     filter: brightness(110%);
 }
 
+/* Title header */
 .title-header h2 {
     font-size: 11vw;
     transform: translateX(-200px);
 }
+
+/* Tooltips */
+.tooltip-primary-left .arrow::before {
+    border-left-color: $dark-secondary !important;
+}
+
+.tooltip-primary-left .tooltip-inner {
+    background-color: $dark-secondary;
+}
+
+.tooltip-primary-top .arrow::before {
+    border-top-color: $dark-secondary !important;
+}
+
+.tooltip-primary-top .tooltip-inner {
+    background-color: $dark-secondary;
+}
+
 

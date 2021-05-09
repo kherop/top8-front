@@ -7,6 +7,7 @@ import { HeroHeaderComponent } from './components/hero-header/hero-header.compon
 import { ProductCardComponent } from './components/product-card/product-card.component';
 import { TitleHeaderComponent } from './components/title-header/title-header.component';
 import { ProductRatingComponent } from './components/product-rating/product-rating.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ProductRatingComponent } from './components/product-rating/product-rati
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    NgbModule
   ]
 })
 export class SharedModule { }

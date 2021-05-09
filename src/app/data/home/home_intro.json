@@ -5,7 +5,8 @@
         "price": "29,99 €",
         "img": "https://images-na.ssl-images-amazon.com/images/I/81wdE3J6V1L._AC_SL1500_.jpg",
         "link": "https://amzn.to/3nMg9JS",
-        "rating": "4,5"
+        "rating": "4.5",
+        "review": ""
     },
     {
         "title": "POCO X3 Pro, Smartphone 8+256 GB, 6,67”",
@@ -13,7 +14,8 @@
         "price": "294,00 €",
         "img": "https://images-na.ssl-images-amazon.com/images/I/61crLvH7hGL._AC_SL1001_.jpg",
         "link": "https://amzn.to/2RnjL9h",
-        "rating": "4,5"
+        "rating": "4.5",
+        "review": ""
     },
     {
         "title": "Cecotec Pure Aroma 150 Yin",
@@ -21,7 +23,8 @@
         "price": "20.90 €",
         "img": "https://images-na.ssl-images-amazon.com/images/I/61yw1ZvAYIL._AC_SL1000_.jpg",
         "link": "https://amzn.to/3eiyjjf",
-        "rating": "4,5"
+        "rating": "4.5",
+        "review": ""
     },
     {
         "title": "Cecotec Robot aspirador y fregasuelos Conga 1090",
@@ -29,7 +32,8 @@
         "price": "149,00 €",
         "img": "https://images-na.ssl-images-amazon.com/images/I/610NAk2n0ML._AC_SL1000_.jpg",
         "link": "https://amzn.to/3nNDCdH",
-        "rating": "4"
+        "rating": "4",
+        "review": ""
     },
     {
         "title": "Echo Dot (4.ª generación), Altavoz inteligente",
@@ -37,7 +41,8 @@
         "price": "44,99 €",
         "img": "https://images-na.ssl-images-amazon.com/images/I/61yoaHNu9HL._AC_SL1000_.jpg",
         "link": "https://amzn.to/3h0K9As",
-        "rating": "4,5"
+        "rating": "4.5",
+        "review": ""
     },
     {
         "title": "Cecotec Cafetera Express Power Espresso 20 Barista",
@@ -45,7 +50,8 @@
         "price": "299,00 €",
         "img": "https://images-na.ssl-images-amazon.com/images/I/61qbb6n9-WL._AC_SL1000_.jpg",
         "link": "https://amzn.to/3nQizXQ",
-        "rating": ""
+        "rating": "4",
+        "review": ""
     },
     {
         "title": "Lenovo IdeaPad 3 - Ordenador Portátil 15.6",
@@ -53,7 +59,7 @@
         "price": "549,00 €",
         "img": "https://images-na.ssl-images-amazon.com/images/I/716axsnhepL._AC_SL1500_.jpg",
         "link": "https://amzn.to/33mPsSw",
-        "rating": "4,5"
+        "rating": "4.5"
     },
     {
         "title": "NIKE Revolution 5, Zapatillas de Correr",
@@ -61,6 +67,7 @@
         "price": "64,95 €",
         "img": "https://m.media-amazon.com/images/I/71HO2+WN-2L._AC_SX695._SX._UX._SY._UY_.jpg",
         "link": "https://amzn.to/3nRaBhk",
-        "rating": "4,5"
+        "rating": "4.5",
+        "review": ""
     }
 ]
