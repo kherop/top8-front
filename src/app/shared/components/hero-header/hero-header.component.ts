@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-hero-header',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero-header.component.scss']
 })
 export class HeroHeaderComponent implements OnInit {
+
+  @Input() info: any;
 
   constructor() { }
 
