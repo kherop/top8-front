@@ -28,6 +28,10 @@ $dark: #565656;
     background-attachment: fixed;
 }
 
+.bg-gradient {
+    background: linear-gradient(0deg, rgba(247,167,21,1) 0%, rgba(247,167,21,1) 50%, rgba(255,255,255,1) 50%);
+}
+
 .bg-image {
     position: relative;
     overflow: hidden;
@@ -48,6 +52,7 @@ $dark: #565656;
 }
 
 .product-card .product-image {
+    height: 250px;
     max-height: 250px;
 }
 
@@ -113,3 +118,9 @@ $dark: #565656;
     transform: rotate(5deg) scale(1.1, 1.1);
     filter: brightness(110%);
 }
+
+.title-header h2 {
+    font-size: 11vw;
+    transform: translateX(-200px);
+}
+

@@ -1,0 +1,66 @@
+[
+    {
+        "title": "Fire TV Stick Lite con mando por voz Alexa",
+        "description": "El Fire TV Stick Lite incluye todo lo esencial para que lo configures y empieces a ver contenido sin complicaciones. Y con un 50 % más de potencia respecto al Fire TV Stick del 2019, el Fire TV Stick Lite ofrece una ejecución de apps veloz y una reproducción en streaming rápida con calidad Full HD.",
+        "price": "29,99 €",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/81wdE3J6V1L._AC_SL1500_.jpg",
+        "link": "https://amzn.to/3nMg9JS",
+        "rating": "4,5"
+    },
+    {
+        "title": "POCO X3 Pro, Smartphone 8+256 GB, 6,67”",
+        "description": "TODO LO QUE TE ENCANTÓ DEL POCO X3, ¡Y MÁS! Conserva la pantalla suave como la seda, la batería enorme, la carga ultrarrápida y los altavoces con calidad de estudio. Hemos hecho las mejoras necesarias.",
+        "price": "294,00 €",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/61crLvH7hGL._AC_SL1001_.jpg",
+        "link": "https://amzn.to/2RnjL9h",
+        "rating": "4,5"
+    },
+    {
+        "title": "Cecotec Pure Aroma 150 Yin",
+        "description": "El humidificador Pure Aroma 150 Yin cuenta con temporizador programable de hasta 3 horas, su uso es más seguro, permitiendo dejarlo encendido con total tranquilidad al apagarse automáticamente en el momento programado. Es una característica ideal para su uso en estancias de uso infantil.",
+        "price": "20.90 €",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/61yw1ZvAYIL._AC_SL1000_.jpg",
+        "link": "https://amzn.to/3eiyjjf",
+        "rating": "4,5"
+    },
+    {
+        "title": "Cecotec Robot aspirador y fregasuelos Conga 1090",
+        "description": "Robot aspirador profesional 4 en 1: barre, aspira, pasa la mopa y friega el suelo; sistema force implode, maximiza la gran potencia de succión de hasta 1400 pa; cuenta con 3 potencias de limpieza eco, normal y turbo y 5 modos de limpieza: auto, bordes, habitación, espiral y vuelta a casa",
+        "price": "149,00 €",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/610NAk2n0ML._AC_SL1000_.jpg",
+        "link": "https://amzn.to/3nNDCdH",
+        "rating": "4"
+    },
+    {
+        "title": "Echo Dot (4.ª generación), Altavoz inteligente",
+        "description": "Completa cualquier habitación con Alexa. Nuestro altavoz inteligente más vendido tiene un diseño elegante y compacto que resulta ideal para espacios pequeños. Ofrece un sonido de calidad, con voces claras y graves equilibrados, que puedes disfrutar en cualquier lugar de la casa.",
+        "price": "44,99 €",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/61yoaHNu9HL._AC_SL1000_.jpg",
+        "link": "https://amzn.to/3h0K9As",
+        "rating": "4,5"
+    },
+    {
+        "title": "Cecotec Cafetera Express Power Espresso 20 Barista",
+        "description": "Cafetera espresso con auténtico diseño barista, para los verdaderos amantes del café. Permite hacer todo tipo de cafés con una potencia máxima de 2900 W y también emite agua caliente para las infusiones. Dispone de dos sistemas de calentamiento rápido por Thermoblock, que garantiza que la temperatura se mantenga en su intervalo óptimo para un café y permite, al mismo tiempo, hacer uso del vaporizador.",
+        "price": "299,00 €",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/61qbb6n9-WL._AC_SL1000_.jpg",
+        "link": "https://amzn.to/3nQizXQ",
+        "rating": ""
+    },
+    {
+        "title": "Lenovo IdeaPad 3 - Ordenador Portátil 15.6",
+        "description": "Este equipo supera con creces las expectativas gracias a su procesador Intel Core y a sus potentes opciones de memoria y almacenamiento. Prestaciones adicionales: El teclado numérico acelerará tu productividad, tanto si estás trabajando en el presupuesto familiar como preparando una hoja de cálculo.",
+        "price": "549,00 €",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/716axsnhepL._AC_SL1500_.jpg",
+        "link": "https://amzn.to/33mPsSw",
+        "rating": "4,5"
+    },
+    {
+        "title": "NIKE Revolution 5, Zapatillas de Correr",
+        "description": "La Nike Revolution 5 amortigua tu comodidad con espuma suave para que puedas caminar cómodamente. El material de punto ligero envuelve el pie con un apoyo transpirable, mientras que un diseño minimalista se adapta a cualquier lugar donde el día te lleva. Sujeción y transpirabilidad. El material Knit ligero envuelve el pie en una comodidad transpirable. El talón y los detalles exteriores reforzados del mediopié aportan sujeción y durabilidad. Amortiguación y ligereza. La mediasuela de espuma suave proporciona una pisada suave y estable. La pared exterior texturizada reduce el peso de las zapatillas.",
+        "price": "64,95 €",
+        "img": "https://m.media-amazon.com/images/I/71HO2+WN-2L._AC_SX695._SX._UX._SY._UY_.jpg",
+        "link": "https://amzn.to/3nRaBhk",
+        "rating": "4,5"
+    }
+]

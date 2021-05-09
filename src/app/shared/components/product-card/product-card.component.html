@@ -1,0 +1,33 @@
+<div class="product-card text-center">
+    <div class="product-image">
+        <img src="{{ product.img }}"
+            class="img img-responsive">
+    </div>
+    <div class="product-content">
+        <div class="product-name bebas">{{ (product.title | slice:0:40) + '...' }}</div>
+        <div class="product-description pb-0">{{ (product.description | slice:0:140) + '...' }}</div>
+        <div class="product-description font-weight-bolder pt-0">
+            <span>
+                desde:
+            </span>
+        </div>
+        <div class="row flex-column justify-content-center">
+            <div class="product-price text-danger bebas">{{ product.price }}</div>
+            <div class="product-rating">
+                <app-product-rating product="product.rating"></app-product-rating>
+            </div>
+        </div>
+    </div>
+    <div class="btn-group w-100" role="group">
+        <a type="button" class="btn btn-primary text-white" href="{{ product.link }}" target="_blank">
+            <svg class="bi" width="32" height="32" fill="currentColor">
+                <use xlink:href="assets/icons/bootstrap-icons.svg#bag" />
+            </svg>
+        </a>
+        <button type="button" class="btn btn-secondary text-white">
+            <svg class="bi" width="32" height="32" fill="currentColor">
+                <use xlink:href="assets/icons/bootstrap-icons.svg#heart" />
+            </svg>
+        </button>
+    </div>
+</div>

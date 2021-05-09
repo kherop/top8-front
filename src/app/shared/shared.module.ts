@@ -4,22 +4,26 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { RouterModule } from '@angular/router';
 import { HeroHeaderComponent } from './components/hero-header/hero-header.component';
-import { ListEightComponent } from './components/list-eight/list-eight.component';
-
-
+import { ProductCardComponent } from './components/product-card/product-card.component';
+import { TitleHeaderComponent } from './components/title-header/title-header.component';
+import { ProductRatingComponent } from './components/product-rating/product-rating.component';
 
 @NgModule({
   declarations: [
     FooterComponent,
     NavbarComponent,
     HeroHeaderComponent,
-    ListEightComponent
+    ProductCardComponent,
+    TitleHeaderComponent,
+    ProductRatingComponent
   ],
   exports: [
     NavbarComponent,
     FooterComponent,
     HeroHeaderComponent,
-    ListEightComponent
+    ProductCardComponent,
+    TitleHeaderComponent,
+    ProductRatingComponent
   ],
   imports: [
     CommonModule,
