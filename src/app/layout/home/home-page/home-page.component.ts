@@ -22,6 +22,9 @@ export class HomePageComponent implements OnInit {
   info_header_house: any;
   info_header_sport: any;
 
+  // Info para el hero header
+  info_hero: any;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -30,6 +33,7 @@ export class HomePageComponent implements OnInit {
     this.home_house = home_house_json;
     this.home_sport = home_sport_json;
     
+    // Objetos de info para los header de secciones
     this.info_header_technology = {
       title: 'Tecnología',
       img: '../../../../assets/images/tech_002.png',
@@ -47,6 +51,11 @@ export class HomePageComponent implements OnInit {
       img: '../../../../assets/images/sport_001.png',
       alt: 'Deporte'
     };
+
+    // Objeto de info para el hero header
+    this.info_hero = {
+      img: '../../../../assets/images/logo_blanco.png',
+    }
 
   }
 
