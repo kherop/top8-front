@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListEightComponent } from './list-eight.component';
+import { TitleHeaderComponent } from './title-header.component';
 
-describe('ListEightComponent', () => {
-  let component: ListEightComponent;
-  let fixture: ComponentFixture<ListEightComponent>;
+describe('TitleHeaderComponent', () => {
+  let component: TitleHeaderComponent;
+  let fixture: ComponentFixture<TitleHeaderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ListEightComponent ]
+      declarations: [ TitleHeaderComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ListEightComponent);
+    fixture = TestBed.createComponent(TitleHeaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
