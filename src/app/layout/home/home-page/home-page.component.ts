@@ -28,6 +28,7 @@ export class HomePageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    // Se inicia la data
     this.home_intro = home_intro_json;
     this.home_technology = home_technology_json;
     this.home_house = home_house_json;
