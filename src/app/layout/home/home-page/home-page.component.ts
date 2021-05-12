@@ -54,7 +54,7 @@ export class HomePageComponent implements OnInit {
 
     // Objeto de info para el hero header
     this.info_hero = {
-      img: '../../../../assets/images/logo_blanco.png',
+      img: '../../../../assets/images/001.jpg',
     }
 
   }
