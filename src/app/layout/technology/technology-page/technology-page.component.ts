@@ -41,25 +41,25 @@ export class TechnologyPageComponent implements OnInit {
     // Objetos de info para los header de secciones
     this.info_header_mobile = {
       title: 'Móviles',
-      img: '../../../../assets/images/tech_002.png',
+      img: '../../../../assets/images/tech_004.png',
       alt: 'Móviles'
     };
 
     this.info_header_pc = {
-      title: 'Ordenadores',
-      img: '../../../../assets/images/tech_002.png',
-      alt: 'Ordenadores'
+      title: 'PC',
+      img: '../../../../assets/images/tech_006.png',
+      alt: 'PC'
     };
 
     this.info_header_gaming = {
       title: 'Gaming',
-      img: '../../../../assets/images/tech_002.png',
+      img: '../../../../assets/images/tech_005.png',
       alt: 'Gaming'
     };
 
     this.info_header_tv_audio = {
       title: 'TV y Audio',
-      img: '../../../../assets/images/tech_002.png',
+      img: '../../../../assets/images/tech_007.png',
       alt: 'TV y Audio'
     };
 

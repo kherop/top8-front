@@ -16,3 +16,59 @@
     </div>
 </div>
 <!-- TOP 8 BEST HOUSE PRODUCT -->
+
+<!-- HEADER HOUSE APPLIANCES -->
+<app-title-header [info]="info_header_appliances"></app-title-header>
+<!-- END HEADER HOUSE APPLIANCES -->
+
+<!-- TOP 8 BEST HOUSE APPLIANCES -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of house_appliances">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST HOUSE APPLIANCES -->
+
+<!-- HEADER HOUSE HEALTH -->
+<app-title-header [info]="info_header_health"></app-title-header>
+<!-- END HEADER HOUSE HEALTH -->
+
+<!-- TOP 8 BEST HOUSE HEALTH -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of house_health">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST HOUSE HEALTH -->
+
+<!-- HEADER HOUSE KITCHEN -->
+<app-title-header [info]="info_header_home_kitchen"></app-title-header>
+<!-- END HEADER HOUSE KITCHEN -->
+
+<!-- TOP 8 BEST HOUSE KITCHEN -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of house_home_kitchen">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST HOUSE KITCHEN -->
+
+<!-- HEADER HOUSE LIGHTING -->
+<app-title-header [info]="info_header_lighting"></app-title-header>
+<!-- END HEADER HOUSE LIGHTING -->
+
+<!-- TOP 8 BEST HOUSE LIGHTING -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of house_lighting">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST HOUSE LIGHTING -->
