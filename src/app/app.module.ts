@@ -7,6 +7,12 @@ import { SharedModule } from './shared/shared.module';
 import { AuthModule } from './auth/auth.module';
 import { HomeModule } from './layout/home/home.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TechnologyModule } from './layout/technology/technology.module';
+import { SportsModule } from './layout/sports/sports.module';
+import { HouseModule } from './layout/house/house.module';
+import { CoursesModule } from './layout/courses/courses.module';
+import { GamesModule } from './layout/games/games.module';
+import { LegalModule } from './layout/legal/legal.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +24,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     SharedModule,
     AuthModule,
     HomeModule,
+    TechnologyModule,
+    HomeModule,
+    SportsModule,
+    HouseModule,
+    CoursesModule,
+    GamesModule,
+    LegalModule,
     NgbModule
   ],
   providers: [],

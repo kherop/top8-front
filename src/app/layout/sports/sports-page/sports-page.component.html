@@ -1,1 +1,74 @@
-<p>sports-page works!</p>
+<!-- HERO HEADER -->
+<app-hero-header [info]="info_hero"></app-hero-header>
+<!-- END HERO HEADER -->
+
+<!-- TOP 8 BEST SPORTS PRODUCT -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col">
+            <h1 class="bebas text-dark display-3 py-3">Mejores productos y más demandados</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of sports_intro">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST SPORTS PRODUCT -->
+
+<!-- HEADER SPORTS CLOTHING -->
+<app-title-header [info]="info_header_clothing"></app-title-header>
+<!-- END HEADER SPORTS CLOTHING -->
+
+<!-- TOP 8 BEST SPORTS CLOTHING -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of sports_clothing">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST SPORTS CLOTHING -->
+
+<!-- HEADER SPORTS OUTDOORS -->
+<app-title-header [info]="info_header_outdoors"></app-title-header>
+<!-- END HEADER SPORTS OUTDOORS -->
+
+<!-- TOP 8 BEST SPORTS OUTDOORS -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of sports_outdoors">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST SPORTS OUTDOORS -->
+
+<!-- HEADER SPORTS RUNNING -->
+<app-title-header [info]="info_header_running"></app-title-header>
+<!-- END HEADER SPORTS RUNNING -->
+
+<!-- TOP 8 BEST SPORTS RUNNING -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of sports_running">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST SPORTS RUNNING -->
+
+<!-- HEADER SPORTS SCOOTERS -->
+<app-title-header [info]="info_header_scooters"></app-title-header>
+<!-- END HEADER SPORTS SCOOTERS -->
+
+<!-- TOP 8 BEST SPORTS SCOOTERS -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of sports_scooters">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST SPORTS SCOOTERS -->

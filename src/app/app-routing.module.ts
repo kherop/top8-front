@@ -7,6 +7,7 @@ import { HousePageComponent } from './layout/house/house-page/house-page.compone
 import { SportsPageComponent } from './layout/sports/sports-page/sports-page.component';
 import { CoursesPageComponent } from './layout/courses/courses-page/courses-page.component';
 import { GamesPageComponent } from './layout/games/games-page/games-page.component';
+import { LegalPageComponent } from './layout/legal/legal-page/legal-page.component';
 
 const routes: Routes = [
   { path: '', component:  HomePageComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'deportes', component:  SportsPageComponent },
   { path: 'cursos', component:  CoursesPageComponent },
   { path: 'videojuegos', component:  GamesPageComponent },
+  { path: 'politicas', component:  LegalPageComponent },
   { path: '**', component: Error404PageComponent }
 ];
 

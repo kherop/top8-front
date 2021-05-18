@@ -1,1 +1,74 @@
-<p>games-page works!</p>
+<!-- HERO HEADER -->
+<app-hero-header [info]="info_hero"></app-hero-header>
+<!-- END HERO HEADER -->
+
+<!-- TOP 8 BEST GAMES TOP -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col">
+            <h1 class="bebas text-dark display-3 py-3">Top ventas</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of games_top">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST GAMES TOP -->
+
+<!-- HEADER GAMES ACTION -->
+<app-title-header [info]="info_header_action"></app-title-header>
+<!-- END HEADER TECHNOLOGY ACTION -->
+
+<!-- TOP 8 BEST TECHNOLOGY ACTION -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of games_action">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST GAMES ACTION -->
+
+<!-- HEADER GAMES ADVENTURE -->
+<app-title-header [info]="info_header_adventure"></app-title-header>
+<!-- END HEADER TECHNOLOGY ADVENTURE -->
+
+<!-- TOP 8 BEST TECHNOLOGY ADVENTURE -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of games_adventure">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST GAMES ADVENTURE -->
+
+<!-- HEADER GAMES SPORTS -->
+<app-title-header [info]="info_header_sports"></app-title-header>
+<!-- END HEADER TECHNOLOGY SPORTS -->
+
+<!-- TOP 8 BEST TECHNOLOGY SPORTS -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of games_sports">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST GAMES SPORTS -->
+
+<!-- HEADER GAMES STRATEGY -->
+<app-title-header [info]="info_header_strategy"></app-title-header>
+<!-- END HEADER TECHNOLOGY STRATEGY -->
+
+<!-- TOP 8 BEST TECHNOLOGY STRATEGY -->
+<div class="container-fluid text-center p-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-3 pb-5" *ngFor="let product of games_strategy">
+            <app-product-card [product]="product"></app-product-card>
+        </div>
+    </div>
+</div>
+<!-- TOP 8 BEST GAMES STRATEGY -->
