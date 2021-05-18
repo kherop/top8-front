@@ -5,8 +5,8 @@
         "price": "16,99 €",
         "img": "https://images-na.ssl-images-amazon.com/images/I/51tikpDapNL._AC_SL1000_.jpg",
         "link": "https://amzn.to/3oc9DfV",
-        "rating": "",
-        "review": "4.3"
+        "rating": "4.3",
+        "review": ""
     },
     {
         "title": "POCO X3 Pro, Smartphone 8+256 GB, 6,67” 120 Hz FHD+ DotDisplay, Snapdragon 860, cámara cuádruple de 48 MP, 5160 mAh, Negro Fantasma (versión ES/PT), incluye auriculares",
@@ -68,7 +68,7 @@
         "price": "18,99 €",
         "img": "https://images-na.ssl-images-amazon.com/images/I/31q2Ux7c6NL._AC_.jpg",
         "link": "https://amzn.to/2R7o3BU",
-        "rating": "7.4",
+        "rating": "4.7",
         "review": ""
     }
 ]

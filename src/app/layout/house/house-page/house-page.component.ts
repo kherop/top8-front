@@ -41,25 +41,25 @@ export class HousePageComponent implements OnInit {
     // Objetos de info para los header de secciones
     this.info_header_appliances = {
       title: 'Electrodomesticos',
-      img: '../../../../assets/images/sport_003.png',
+      img: '../../../../assets/images/house_004.png',
       alt: 'Electrodomesticos'
     };
 
     this.info_header_health = {
       title: 'Cuidados',
-      img: '../../../../assets/images/sport_003.png',
+      img: '../../../../assets/images/house_006.png',
       alt: 'Cuidados'
     };
 
     this.info_header_home_kitchen = {
       title: 'Cocina',
-      img: '../../../../assets/images/sport_003.png',
+      img: '../../../../assets/images/house_003.png',
       alt: 'Cocina'
     };
 
     this.info_header_lighting = {
       title: 'Iluminación',
-      img: '../../../../assets/images/sport_003.png',
+      img: '../../../../assets/images/house_005.png',
       alt: 'Iluminación'
     };
 
