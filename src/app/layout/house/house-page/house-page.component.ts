@@ -1,9 +1,5 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import home_sport_json from '../../../data/home/home_house.json';
-import house_appliances_json from '../../../data/house/house_appliances.json';
-import house_health_json from '../../../data/house/house_health.json';
-import house_home_kitchen_json from '../../../data/house/house_home _kitchen.json';
-import house_lighting_json from '../../../data/house/house_lighting.json';
 
 @Component({
   selector: 'app-house-page',
@@ -28,15 +24,35 @@ export class HousePageComponent implements OnInit {
   // Info para el hero header
   info_hero: any;
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    // Se inicializa la data
-    this.house_intro = home_sport_json;
-    this.house_appliances = house_appliances_json;
-    this.house_health = house_health_json;
-    this.house_home_kitchen = house_home_kitchen_json;
-    this.house_lighting = house_lighting_json;
+    // Llamadas http para solicitar la data
+    this.http.get("assets/data/home/home_house.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.house_intro = resp;
+    })
+
+    this.http.get("assets/data/house/house_appliances.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.house_appliances = resp;
+    })
+    
+    this.http.get("assets/data/house/house_health.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.house_health = resp;
+    })
+
+    this.http.get("assets/data/house/house_home _kitchen.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.house_home_kitchen = resp;
+    })
+
+    this.http.get("assets/data/house/house_lighting.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.house_lighting = resp;
+    })
+
 
     // Objetos de info para los header de secciones
     this.info_header_appliances = {

@@ -1,9 +1,5 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import home_sport_json from '../../../data/home/home_sport.json';
-import sports_clothing_json from '../../../data/sports/sports_clothing.json';
-import sports_outdoors_json from '../../../data/sports/sports_outdoors.json';
-import sports_running_json from '../../../data/sports/sports_running.json';
-import sports_scooters_json from '../../../data/sports/sports_scooters.json';
 
 @Component({
   selector: 'app-sports-page',
@@ -28,15 +24,34 @@ export class SportsPageComponent implements OnInit {
   // Info para el hero header
   info_hero: any;
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    // Se inicia la data
-    this.sports_intro = home_sport_json;
-    this.sports_clothing = sports_clothing_json;
-    this.sports_outdoors = sports_outdoors_json;
-    this.sports_running = sports_running_json;
-    this.sports_scooters = sports_scooters_json;
+    // Llamadas http para solicitar la data
+    this.http.get("assets/data/home/home_sport.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.sports_intro = resp;
+    })
+
+    this.http.get("assets/data/sports/sports_clothing.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.sports_clothing = resp;
+    })
+
+    this.http.get("assets/data/sports/sports_outdoors.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.sports_outdoors = resp;
+    })
+
+    this.http.get("assets/data/sports/sports_running.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.sports_running = resp;
+    })
+
+    this.http.get("assets/data/sports/sports_scooters.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.sports_scooters = resp;
+    })
 
     // Objetos de info para los header de secciones
     this.info_header_clothing = {

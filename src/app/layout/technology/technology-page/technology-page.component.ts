@@ -1,9 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import home_technology_json from '../../../data/home/home_technology.json';
-import technology_mobile_json from '../../../data/technology/technology_mobile.json';
-import technology_pc_json from '../../../data/technology/technology_pc.json';
-import technology_gaming_json from '../../../data/technology/technology_gaming.json';
-import technology_tv_audio_json from '../../../data/technology/technology_tv_audio.json';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-technology-page',
@@ -28,15 +24,34 @@ export class TechnologyPageComponent implements OnInit {
   // Info para el hero header
   info_hero: any;
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    // Se inicia la data
-    this.technology_intro = home_technology_json;
-    this.technology_mobile = technology_mobile_json;
-    this.technology_pc = technology_pc_json;
-    this.technology_gaming = technology_gaming_json;
-    this.technology_tv_audio = technology_tv_audio_json;
+    // Llamadas http para solicitar la data
+    this.http.get("assets/data/home/home_technology.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.technology_intro = resp;
+    })
+
+    this.http.get("assets/data/technology/technology_mobile.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.technology_mobile = resp;
+    })
+
+    this.http.get("assets/data/technology/technology_pc.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.technology_pc = resp;
+    })
+
+    this.http.get("assets/data/technology/technology_gaming.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.technology_gaming = resp;
+    })
+
+    this.http.get("assets/data/technology/technology_tv_audio.json").subscribe((resp: any) => {
+      console.log(resp);
+      this.technology_tv_audio = resp;
+    })
 
     // Objetos de info para los header de secciones
     this.info_header_mobile = {
