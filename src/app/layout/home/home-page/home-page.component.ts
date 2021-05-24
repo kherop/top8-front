@@ -28,28 +28,23 @@ export class HomePageComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    // Se inicia la data
-    // this.home_intro = home_intro_json;
-    // this.home_technology = home_technology_json;
-    // this.home_house = home_house_json;
-    // this.home_sport = home_sport_json;
-
-    this.http.get("assets/data/home/home_intro.json").subscribe((resp: any) =>{
+    // Llamadas http para solicitar la data
+    this.http.get("assets/data/home_intro.json").subscribe((resp: any) =>{
       console.log(resp);
       this.home_intro = resp;
     })
 
-    this.http.get("assets/data/home/home_technology.json").subscribe((resp: any) =>{
+    this.http.get("assets/data/home_technology.json").subscribe((resp: any) =>{
       console.log(resp);
       this.home_technology = resp;
     })
 
-    this.http.get("assets/data/home/home_house.json").subscribe((resp: any) =>{
+    this.http.get("assets/data/home_house.json").subscribe((resp: any) =>{
       console.log(resp);
       this.home_house = resp;
     })
 
-    this.http.get("assets/data/home/home_sport.json").subscribe((resp: any) =>{
+    this.http.get("assets/data/home_sport.json").subscribe((resp: any) =>{
       console.log(resp);
       this.home_sport = resp;
     })
