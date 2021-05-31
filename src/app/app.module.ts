@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http'
 
 import { AppComponent } from './app-component/app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -21,8 +22,9 @@ import { LegalModule } from './layout/legal/legal.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule,
     AuthModule,
+    HttpClientModule,
+    SharedModule,
     HomeModule,
     TechnologyModule,
     HomeModule,

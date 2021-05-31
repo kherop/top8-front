@@ -1,9 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import games_top_json from '../../../data/games/games_top.json';
-import games_action_json from '../../../data/games/games_action.json';
-import games_adventures_json from '../../../data/games/games_adventures.json';
-import games_sports_json from '../../../data/games/games_sports.json';
-import games_strategy_json from '../../../data/games/games_strategy.json';
 
 @Component({
   selector: 'app-games-page',
@@ -31,12 +26,6 @@ export class GamesPageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    // Se inicia la data
-    this.games_top = games_top_json;
-    this.games_action = games_action_json;
-    this.games_adventure = games_adventures_json;
-    this.games_sports = games_sports_json;
-    this.games_strategy = games_strategy_json;
 
     // Objetos de info para los header de secciones
     this.info_header_action = {
