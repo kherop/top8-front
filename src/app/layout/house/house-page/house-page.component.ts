@@ -28,27 +28,27 @@ export class HousePageComponent implements OnInit {
 
   ngOnInit(): void {
     // Llamadas http para solicitar la data
-    this.http.get("assets/data/home/home_house.json").subscribe((resp: any) => {
+    this.http.get("assets/data/home_house.json").subscribe((resp: any) => {
       console.log(resp);
       this.house_intro = resp;
     })
 
-    this.http.get("assets/data/house/house_appliances.json").subscribe((resp: any) => {
+    this.http.get("assets/data/house_appliances.json").subscribe((resp: any) => {
       console.log(resp);
       this.house_appliances = resp;
     })
     
-    this.http.get("assets/data/house/house_health.json").subscribe((resp: any) => {
+    this.http.get("assets/data/house_health.json").subscribe((resp: any) => {
       console.log(resp);
       this.house_health = resp;
     })
 
-    this.http.get("assets/data/house/house_home _kitchen.json").subscribe((resp: any) => {
+    this.http.get("assets/data/house_home _kitchen.json").subscribe((resp: any) => {
       console.log(resp);
       this.house_home_kitchen = resp;
     })
 
-    this.http.get("assets/data/house/house_lighting.json").subscribe((resp: any) => {
+    this.http.get("assets/data/house_lighting.json").subscribe((resp: any) => {
       console.log(resp);
       this.house_lighting = resp;
     })

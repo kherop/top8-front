@@ -18,18 +18,18 @@ export class ProductRatingComponent implements OnInit {
 
   getStars(rating: any) {
 
-    // Round to nearest half
+    // Redondeo de la puntuacion
     rating = Math.round(rating * 2) / 2;
     let output = [];
   
-    // Append all the filled whole stars
+    // Se añaden las estrellas enteras
     for (var i = rating; i >= 1; i--)
       output.push('<i class="bi bi-star-fill text-primary"></i>');
   
-    // If there is a half a star, append it
+    // Si es necesario incluimos la media estrella
     if (i == .5) output.push('<i class="bi bi-star-half text-primary"></i>');
   
-    // Fill the empty stars
+    // Estrellas vacias
     for (let i = (5 - rating); i >= 1; i--)
       output.push('<i class="bi bi-star text-primary"></i></svg>');
   
@@ -38,6 +38,3 @@ export class ProductRatingComponent implements OnInit {
   }
 
 }
-
-
-// '<i class="fa fa-star" aria-hidden="true" style="color: gold;"></i>&nbsp;'

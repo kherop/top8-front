@@ -28,27 +28,27 @@ export class SportsPageComponent implements OnInit {
 
   ngOnInit(): void {
     // Llamadas http para solicitar la data
-    this.http.get("assets/data/home/home_sport.json").subscribe((resp: any) => {
+    this.http.get("assets/data/home_sport.json").subscribe((resp: any) => {
       console.log(resp);
       this.sports_intro = resp;
     })
 
-    this.http.get("assets/data/sports/sports_clothing.json").subscribe((resp: any) => {
+    this.http.get("assets/data/sports_clothing.json").subscribe((resp: any) => {
       console.log(resp);
       this.sports_clothing = resp;
     })
 
-    this.http.get("assets/data/sports/sports_outdoors.json").subscribe((resp: any) => {
+    this.http.get("assets/data/sports_outdoors.json").subscribe((resp: any) => {
       console.log(resp);
       this.sports_outdoors = resp;
     })
 
-    this.http.get("assets/data/sports/sports_running.json").subscribe((resp: any) => {
+    this.http.get("assets/data/sports_running.json").subscribe((resp: any) => {
       console.log(resp);
       this.sports_running = resp;
     })
 
-    this.http.get("assets/data/sports/sports_scooters.json").subscribe((resp: any) => {
+    this.http.get("assets/data/sports_scooters.json").subscribe((resp: any) => {
       console.log(resp);
       this.sports_scooters = resp;
     })

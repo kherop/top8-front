@@ -90,19 +90,19 @@ export class TechnologyPageComponent implements OnInit {
 
     this.info_header_earphone = {
       title: 'Auriculares',
-      img: '../../../../assets/images/tech_004.png',
+      img: '../../../../assets/images/tech_008.png',
       alt: 'Móviles'
     };
 
     this.info_header_smartwatch = {
       title: 'Smartwatch',
-      img: '../../../../assets/images/tech_004.png',
+      img: '../../../../assets/images/tech_009.png',
       alt: 'Smartwatch'
     };
 
     this.info_header_pc = {
       title: 'PC',
-      img: '../../../../assets/images/tech_006.png',
+      img: '../../../../assets/images/tech_010.png',
       alt: 'PC'
     };
 
@@ -126,7 +126,7 @@ export class TechnologyPageComponent implements OnInit {
 
     this.info_header_audio = {
       title: 'Audio',
-      img: '../../../../assets/images/tech_007.png',
+      img: '../../../../assets/images/tech_011.png',
       alt: 'Audio'
     };
 
