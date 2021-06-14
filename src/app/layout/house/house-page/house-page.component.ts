@@ -10,15 +10,15 @@ export class HousePageComponent implements OnInit {
 
   // Variables para guardar los datos de cada sección
   house_intro: any;
-  house_appliances: any;
+  house_kitchen: any;
   house_health: any;
-  house_home_kitchen: any;
+  house_furniture: any;
   house_lighting: any;
 
   // Info para los header de secciones
-  info_header_appliances: any;
+  info_header_kitchen: any;
   info_header_health: any;
-  info_header_home_kitchen: any;
+  info_header_furniture: any;
   info_header_lighting: any;
 
   // Info para el hero header
@@ -33,9 +33,9 @@ export class HousePageComponent implements OnInit {
       this.house_intro = resp;
     })
 
-    this.http.get("assets/data/house_appliances.json").subscribe((resp: any) => {
+    this.http.get("assets/data/house_kitchen.json").subscribe((resp: any) => {
       console.log(resp);
-      this.house_appliances = resp;
+      this.house_kitchen = resp;
     })
     
     this.http.get("assets/data/house_health.json").subscribe((resp: any) => {
@@ -43,9 +43,9 @@ export class HousePageComponent implements OnInit {
       this.house_health = resp;
     })
 
-    this.http.get("assets/data/house_home _kitchen.json").subscribe((resp: any) => {
+    this.http.get("assets/data/house_furniture.json").subscribe((resp: any) => {
       console.log(resp);
-      this.house_home_kitchen = resp;
+      this.house_furniture = resp;
     })
 
     this.http.get("assets/data/house_lighting.json").subscribe((resp: any) => {
@@ -55,22 +55,22 @@ export class HousePageComponent implements OnInit {
 
 
     // Objetos de info para los header de secciones
-    this.info_header_appliances = {
-      title: 'Electrodomesticos',
-      img: '../../../../assets/images/house_004.png',
-      alt: 'Electrodomesticos'
+    this.info_header_kitchen= {
+      title: 'Cocina',
+      img: '../../../../assets/images/house_003.png',
+      alt: 'Cocina'
     };
 
     this.info_header_health = {
       title: 'Cuidados',
-      img: '../../../../assets/images/house_006.png',
+      img: '../../../../assets/images/house_008.png',
       alt: 'Cuidados'
     };
 
-    this.info_header_home_kitchen = {
-      title: 'Cocina',
-      img: '../../../../assets/images/house_003.png',
-      alt: 'Cocina'
+    this.info_header_furniture = {
+      title: 'Muebles',
+      img: '../../../../assets/images/house_007.png',
+      alt: 'Muebles'
     };
 
     this.info_header_lighting = {
